@@ -1,0 +1,48 @@
+
+Student Statistics Report
+-------------------------
+
+Dataset
+-------
+    Name  StudyHours  Score  Attendance Result Grade
+0  Alice           8     85          92   Pass     A
+1    Ben           6     72          80   Pass     B
+2  Cathy           9     90          95   Pass     A
+3  David           3     45          60   Fail     F
+4   Ella           5     58          75   Pass     D
+5  Frank           7     66          78   Pass     C
+6  Grace           8     88          91   Pass     A
+7  Henry           4     52          65   Pass     D
+8    Ivy           6     76          85   Pass     B
+9   Jack          10     91          96   Pass     A
+
+Score Statistics
+----------------
+Mean score: 72.30
+Median score: 74.00
+Minimum score: 45
+Maximum score: 91
+Score range: 46
+Score variance: 276.23
+Score standard deviation: 16.62
+
+Result Summary
+--------------
+Students passed: 9
+Students failed: 1
+Probability of passing: 0.90
+Passing rate: 90.00%
+
+Correlation
+-----------
+Correlation between study hours and score: 0.95
+
+Grade Counts
+------------
+Grade
+A    4
+B    2
+D    2
+F    1
+C    1
+Name: count, dtype: int64
